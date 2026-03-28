@@ -14,11 +14,11 @@ class User {
     }
 
     public function displayResult() {
-        echo "<h3>Data User:</h3>";
-        echo "Nama: " . $this->firstname . " " . $this->lastname . "<br>";
-        echo "No HP: " . $this->phone . "<br>";
-        echo "Alamat: " . $this->address . "<br>";
-    }
+    echo "<div class='result'>";
+    echo "<h3>Data User:</h3>";
+    echo "<p>Nama: $this->firstname $this->lastname</p>";
+    echo "<p>No HP: $this->phone</p>";
+    echo "<p>Alamat: $this->address</p>";
+    echo "</div>";
 }
-
-?>
+}

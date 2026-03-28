@@ -1,6 +1,6 @@
 <?php 
-// Memanggil file User.php
-require_once 'User.php'; 
+// Memanggil file user.php
+require_once 'user.php'; 
 ?>
 
 <!DOCTYPE html>
